@@ -1,6 +1,6 @@
 # Vite + React ToDo App
 
-Welcome to the Vite + React ToDo App! This is a simple, modern application that leverages the power of Vite for fast development and Supabase for seamless CRUD (Create, Read, Update, Delete) operations.  
+Welcome to the Vite + React ToDo App! This is a simple, modern application that leverages the power of Vite for fast development and Supabase for seamless CRUD (Create, Read, Update, Delete) operations.
 
 ---
 
@@ -40,17 +40,20 @@ Make sure you have the following installed:
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/jatinvaira/vite-todo-app.git
    cd vite-todo-app
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the development server:
+
    ```bash
    npm run dev
    ```
@@ -63,11 +66,11 @@ Make sure you have the following installed:
 
 This app uses [Supabase](https://supabase.com/) for backend services. Supabase provides an easy-to-use interface for managing databases and authentication.
 `.env` file in the root directory of your project and add the following:
-   ```env
-   VITE_SUPABASE_URL=<your-supabase-url>
-   VITE_SUPABASE_KEY=<your-supabase-api-key>
-   ```
 
+```env
+VITE_SUPABASE_URL=<your-supabase-url>
+VITE_SUPABASE_KEY=<your-supabase-api-key>
+```
 
 ### CRUD Features
 
@@ -82,7 +85,7 @@ This app uses [Supabase](https://supabase.com/) for backend services. Supabase p
 
 Check out the full demo of the application in action below:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/diVXzr4Zsg8?si=CFMoOZ6ZjQHxRsaC" frameborder="0" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/diVXzr4Zsg8/0.jpg)](https://www.youtube.com/watch?v=diVXzr4Zsg8)
 
 ---
 
@@ -101,9 +104,6 @@ We welcome contributions! To contribute:
    ```
 4. Open a pull request.
 
-
-
 ---
 
 Happy coding! 🚀
-
