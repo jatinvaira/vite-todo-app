@@ -41,5 +41,69 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/vite-todo-app.git
+   git clone https://github.com/jatinvaira/vite-todo-app.git
    cd vite-todo-app
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`.
+
+---
+
+## Supabase Integration
+
+This app uses [Supabase](https://supabase.com/) for backend services. Supabase provides an easy-to-use interface for managing databases and authentication.
+`.env` file in the root directory of your project and add the following:
+   ```env
+   VITE_SUPABASE_URL=<your-supabase-url>
+   VITE_SUPABASE_KEY=<your-supabase-api-key>
+   ```
+
+
+### CRUD Features
+
+- **Create**: Add new tasks to your ToDo list.
+- **Read**: Fetch and display tasks from the Supabase database.
+- **Update**: Mark tasks as completed or edit task details.
+- **Delete**: Remove tasks you no longer need.
+
+---
+
+## Demo
+
+Check out the full demo of the application in action below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/diVXzr4Zsg8?si=CFMoOZ6ZjQHxRsaC" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## Contributing
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes and push the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+4. Open a pull request.
+
+
+
+---
+
+Happy coding! 🚀
+

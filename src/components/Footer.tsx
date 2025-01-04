@@ -19,7 +19,9 @@ export function Footer() {
 
           <button 
             className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
-            onClick={() => alert('Resume download link will be implemented later')}
+            onClick={() => {
+              window.location.href = "https://drive.google.com/drive/folders/1Pf73xogDu06i_7Yldf3ZWpphaXiYgASz?usp=sharing";
+            }}
           >
             <FileDown className="w-4 h-4" />
             Download Resume
